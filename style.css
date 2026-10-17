@@ -4,10 +4,10 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: #F8F9FA;
 }
 
 .faq {
-    background-color: #F8F9FA;
     display: flex;
     font-family: DM Sans, sans-serif;
     flex-direction: column;
@@ -35,9 +35,11 @@ body {
     display: flex;
     width: 936px;
     align-items: center;
-    border-bottom: 1px solid #0000001a;
     padding: 20px 0 20px 0px;
     font-size: 16px;
+}
+.qs:not(:last-of-type) {
+    border-bottom: 1px solid #0000001a;
 }
 .qs-interior {
     flex-direction: row;
