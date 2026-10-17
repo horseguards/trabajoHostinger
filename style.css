@@ -31,7 +31,6 @@ body {
 .qs {
     flex-direction: row;
     justify-content: space-between;
-    gap: 70px;
     display: flex;
     width: 936px;
     align-items: center;
