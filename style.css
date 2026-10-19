@@ -49,7 +49,7 @@ body {
     font-weight: 100;
 }
 @media screen and (max-width: 600px) {
-    .faq {
+    .body {
         background-color: #f9faf8;
     }
 }
